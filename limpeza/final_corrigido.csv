@@ -1,0 +1,28 @@
+﻿id_da_compra,data,hora,cliente,produto,valor,quantidade,total,status,cidade,estado,pais,cep,frete,pagamento,vendedor,marca
+13679,2021-03-20,23:35:51,LUCAS Araujo Kuhn,queijo mussarela,16.87,13,239.31,Pagamento Confirmado,Niterói,RJ,Brasil,24000-000,20.0,Cartão de Crédito,SAMUEL HENRIQUE CAÇADOR,Porto Alegre
+28070,2020-10-30,09:00:53,MICAEL SOUZA RONCETE,molho de tomate,3.25,3,9.75,Pagamento Confirmado,Mariana,MG,Brasil,35420-000,0.0,Pix,MICAEL MALAQUIAS DE SOUZA OLIVEIRA,Fugini
+34924,2018-06-20,17:10:42,LEVI MATOS LIMA DA CUNHA,condicionador,9.51,5,69.55,Pagamento Confirmado,Cabo Frio,RJ,Brasil,28900-000,22.0,Pix,FELIPE HENRIQUE COSTA BARNABE MARAZO,Pantene
+10575,2018-10-01,18:36:45,HENRICO DA CUNHA TEIXEIRA,sabonete,1.25,2,13.0,Em Separação,São João del-Rei,MG,Brasil,36300-000,10.5,Boleto,GABRIEL QUEIROZ DE AGUIAR,Dove
+10784,2020-07-03,22:34:21,MATEUS VICTOR ALVES,manteiga,6.61,8,71.88,Em Transporte,Duque de Caxias,RJ,Brasil,25000-000,19.0,Pix à Vista,SAMUEL HENRIQUE CAÇADOR,Itambé
+7912,2021-03-22,06:45:54,MATHEUS SILVINO DA SILVA,vinho,30.35,3,99.55,Aguardando Pagamento,Barroso,MG,Brasil,36212-000,8.5,Cartão de Crédito,LUCAS VITOR FAÇANHA NEVES,Salton
+34498,2022-12-10,15:44:27,JOÃO QUEIROZ DE AGUIAR,shampoo,9.98,12,119.76,Pagamento Confirmado,Barbacena,MG,Brasil,36200-000,0.0,Cartão Crédito à Vista,GABRIEL QUEIROZ DE AGUIAR,Pantene
+37929,2021-01-18,17:10:48,JOÃO MATOS LIMA DA CUNHA,presunto,9.65,1,28.15,Pagamento Confirmado,Itaboraí,RJ,Brasil,24800-000,18.5,Transferência Bancária,GABRIEL QUEIROZ DE AGUIAR,Aurora
+37953,2018-01-18,12:58:10,MATEUS STANZANI DE JESUS,cerveja,2.27,14,31.78,Aguardando Pagamento,Petrópolis,RJ,Brasil,25600-000,0.0,Transferência Bancária,PAULO SOUZA RONCETE,Skol
+58994,2021-01-29,18:32:04,THIAGO ANTÔNIO DE DECCO OLIVEIRA,papel toalha,3.05,9,37.45,Pagamento Confirmado,Ouro Branco,MG,Brasil,36420-000,10.0,Cartão de Crédito,VICTOR GONÇALVES DONADONI,Scott
+13465,2020-01-04,13:31:19,MATHEUS GONÇALVES DONADONI,pasta de dente,2.79,12,41.48,Em Separação,Prados,MG,Brasil,36320-000,8.0,Pix,GABRIEL QUEIROZ DE AGUIAR,Oral-B
+4489,2022-02-24,08:13:58,Breno WILSTONY DE SOUZA MENDES,amaciante,4.88,8,47.04,Em Separação,Prados,MG,Brasil,36320-000,8.0,Transferência Bancária,LUCAS VITOR FAÇANHA NEVES,Confort
+15963,2018-07-09,04:34:14,PAULO QUEIROZ DE AGUIAR,desinfetante,5.52,11,60.72,Pagamento Confirmado,Cataguases,MG,Brasil,36770-000,0.0,Cartão de Crédito,PAULO SOUZA RONCETE,Pinho Sol
+45178,2022-07-10,06:45:58,LEVI ANTÔNIO DE SOUZA NETO,refrigerante,5.69,6,43.14,Pagamento Confirmado,Palma,MG,Brasil,36710-000,9.0,Pix,HENRICO VICTOR ALVES,Coca-Cola
+56909,2018-08-22,22:48:35,MARCO RIBEIRO AMORIM,arroz,586.88,6,3521.2799999999997,Aguardando Pagamento,Santana do Garambéu,MG,Brasil,36196-000,0.0,Boleto,FELIPE HENRIQUE COSTA BARNABE MARAZO,Urbano
+32102,2021-07-28,17:47:24,MIGUEL WILSTONY DE SOUZA MENDES,farinha de trigo,2.31,13,30.03,Pagamento Confirmado,Astolfo Dutra,MG,Brasil,36780-000,0.0,Pix,LUCAS VITOR FAÇANHA NEVES,Sol
+39143,2021-05-02,12:21:09,FELIPE DA CUNHA TEIXEIRA,biscoito recheado,3.17,11,34.87,Pagamento Confirmado,São João Nepomuceno,MG,Brasil,36680-000,0.0,Pix,MICAEL MALAQUIAS DE SOUZA OLIVEIRA,Triunfo
+7838,2022-11-25,16:41:25,SAMUEL VITOR FAÇANHA NEVES,sal,1.73,2,12.46,Pagamento Confirmado,Viçosa,MG,Brasil,36570-000,9.0,Transferência Bancária,VICTOR GONÇALVES DONADONI,Lebre
+7453,2021-02-28,00:38:42,MARCO HUGO CAZULA PEREIRA,suco de laranja,6.83,3,20.49,Entregue com Sucesso,Viçosa,MG,Brasil,36570-000,0.0,Pix,HENRICO MATOS LIMA DA CUNHA,Prats
+26688,2020-01-20,11:13:10,VICTOR MUZY FERNANDES,leite integral,3.25,3,28.75,Pagamento Confirmado,Duque de Caxias,RJ,Brasil,25000-000,19.0,Pix,FELIPE HENRIQUE COSTA BARNABE MARAZO,Itambé
+45727,2020-09-25,17:58:08,JOÃO ASSIS NOGUEIRA SILVA,detergente,3.63,14,70.82,Pagamento Confirmado,Niterói,RJ,Brasil,24000-000,20.0,Boleto,LUCAS VITOR FAÇANHA NEVES,Ypê
+27287,2021-02-28,09:12:04,YURI HENRIQUE CAÇADOR,scl,2.33,9,20.97,Em Separação,Palma,MG,Brasil,36710-000,0.0,Cartão de Crédito,HENRICO MATOS LIMA DA CUNHA,Marinho
+39360,2020-03-24,18:39:07,GABRIEL DA CUNHA TEIXEIRA,sucoyde laranja,4.37,8,44.96,Aguardando Pagamento,Muriaé,MG,Brasil,36880-000,10.0,Boleto,MICAEL MALAQUIAS DE SOUZA OLIVEIRA,Dafruta
+47610,2018-08-23,16:59:41,MATEUS CASTILHO CARDOSO,farinha de tripo,3.03,11,43.33,Aguardando Pagamento,Belo Horizonte,MG,Brasil,30000-000,10.0,Boleto à Vista,CARLOS QUEIROZ DE AGUIAR,Dona Benta
+29801,2018-03-30,15:32:12,YURI MURATORI DUTRA,tal,1.63,8,31.04,Pagamento Confirmado,São João de Meriti,RJ,Brasil,25500-000,18.0,TED,FELIPE HENRIQUE COSTA BARNABE MARAZO,Cisne
+58042,2019-10-25,18:15:55,THIAGO MATOS LIMA DA CUNHA,caff,14.28,1,14.28,Aguardando Pagamento,Magé,RJ,Brasil,25900-000,0.0,Boleto,SAMUEL HENRIQUE CAÇADOR,3 Corações
+54689,2020-09-05,17:24:05,JOÃO PAULO ALVES ALVIM,biscoitq recheado,2.44,11,39.84,Pagamento Confirmado,Juiz de Fora,MG,Brasil,36000-000,13.0,Pagamento Instantâneo,DESCONHECIDO,Triunfo

@@ -1,44 +1,34 @@
+
 # Limpeza de Dados com Python
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
+## <p align="center"><strong><span style="color:blue;">Relatório Resumido</span></strong></p>
 
-🔧 Etapas da Limpeza Realizadas
-1. Padronização de Tipos e Formatos
+Etapas da Limpeza de Dados:
+Datas:
+Todas as datas foram padronizadas no formato internacional AAAA-MM-DD, facilitando a organização e a leitura dos registros.
 
-    Datas:
+Horários:
+Os horários foram ajustados para o modelo de 24 horas, no formato HH:MM:SS, garantindo consistência nas análises envolvendo tempo.
 
-        Todas as datas foram convertidas para o formato YYYY-MM-DD.
+Valores Numéricos:
+As colunas com valores monetários e quantitativos como valor, quantidade, frete e total. Depois foram convertidas para tipos numéricos adequados (float ou int).
 
-    Horas:
+Durante esse processo, foram removidos símbolos como “R$” e vírgulas, adotando o ponto (.) como separador decimal. Para facilitar essa limpeza, utilizamos expressões regulares com a biblioteca re.
 
-        Horários convertidos para o padrão HH:MM:SS.
+Tratamento de Dados Incompletos ou Duplicados:
+Campos Vazios
+Registros com informações essenciais faltando, como valor ou quantidade, foram removidos.
+Já os campos que não comprometem a integridade dos dados foram preenchidos com estratégias específicas. Por exemplo, o frete foi substituído pela média dos valores existentes, e datas ausentes foram preenchidas com o valor mais frequente (moda).
 
-    Valores Numéricos:
+Registros Duplicados:
+Também foi feita uma verificação de duplicatas. Um total de X registros repetidos foi identificado e excluído, priorizando sempre a versão mais completa ou mais recente.
 
-        As colunas valor, quantidade, frete e total foram convertidas para tipo numérico (float ou int).
+Correção do Campo "Total":
+Para garantir que os valores do campo total estavam corretos, aplicamos a fórmula-padrão:
 
-        Valores com símbolos (ex: "R$", ",") foram limpos para manter apenas os números com . como separador decimal.
+python
+Copiar
+Editar
+total = (valor * quantidade) + frete
+Quando identificamos divergências, os valores foram recalculados e atualizados com base nessa regra.
+# Trabalho-Ciencia-de-Dados
 
-        Importação da biblioteca (re) para facilitar na limpeza de caracteres nas colunas.
-
-2. Tratamento de Inconsistências
-
-    Valores Ausentes:
-
-        Registros com campos essenciais ausentes (ex: valor, quantidade) foram removidos.
-
-        Dados faltantes não essenciais foram preenchidos com estratégias específicas (ex: frete com média, datas com modo).
-
-    Registros Duplicados:
-
-        Foram identificados e removidos X registros duplicados, mantendo apenas a versão mais recente ou completa.
-
-    Verificação de Cálculo do Total:
-
-        Aplicada a fórmula:
-        total = valor * quantidade + frete
-
-        Registros com cálculos incorretos foram corrigidos
-
-    Tratamento do nome do Vendedor:
-
-        Conforme vimos, há uma inconsistência em relação ao nome dos vendedores. Nesse caso, colocamos eles como DESCONHECIDO ao realizar a limpeza..

@@ -22,9 +22,11 @@ Já os campos que não comprometem a integridade dos dados foram preenchidos com
 Registros Duplicados:
 Também foi feita uma verificação de duplicatas. Um total de X registros repetidos foi identificado e excluído, priorizando sempre a versão mais completa ou mais recente.
 
+Produto:
+Substitui valores específicos e mantém os restantes inalterados.
+
 Correção do Campo "Total":
 Para garantir que os valores do campo total estavam corretos, aplicamos a fórmula-padrão:
-
 python
 Copiar
 Editar
